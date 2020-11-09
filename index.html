@@ -30,6 +30,8 @@
 	<link rel="stylesheet" href="css/animate.css">
 	<!-- Icomoon Icon Fonts-->
 	<link rel="stylesheet" href="css/icomoon.css">
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css">
+
 	<!-- Bootstrap  -->
 	<link rel="stylesheet" href="css/bootstrap.css">
 	<!-- Flexslider  -->
@@ -56,7 +58,7 @@
 		<a href="#" class="js-colorlib-nav-toggle colorlib-nav-toggle" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar"><i></i></a>
 		<aside id="colorlib-aside" role="complementary" class="border js-fullheight">
 			<div class="text-center">
-				<div class="author-img" style="background-image: url(images/about3.jpeg);"></div>
+				<div class="author-img" style="background-image: url(images/my.png);"></div>
 				<h1 id="colorlib-logo"><a href="index.html">Nasser Albunian</a></h1>
 				<span class="position"></span>
 			</div>
@@ -66,10 +68,10 @@
 						<!--<li class="active"><a href="#" data-nav-section="about">About</a></li>-->
 						<li><a href="#" data-nav-section="about">About</a></li>
 						<!--<li><a href="#" data-nav-section="services">Services</a></li>-->
-						<!--<li><a href="#" data-nav-section="skills">Skills</a></li>-->
 						<li><a href="#" data-nav-section="education">Publications</a></li>
-						<!--<li><a href="#" data-nav-section="experience">Experience</a></li>
-						<li><a href="#" data-nav-section="work">Work</a></li>
+						<li><a href="#" data-nav-section="experience">Experience</a></li>
+						<li><a href="#" data-nav-section="skills">Activities</a></li>
+						<!--<li><a href="#" data-nav-section="work">Work</a></li>
 						<li><a href="#" data-nav-section="blog">Blog</a></li>-->
 						<li><a href="#" data-nav-section="contact">Contact</a></li>
 					</ul>
@@ -77,15 +79,15 @@
 			</nav>
 
 			<div class="colorlib-footer">
+				<ul>
+					<li><a href="https://github.com/nasseralbunian" target="_blank"><i class="icon-github" style="font-size: 2em;"></i></a></li>
+					<li><a href="https://scholar.google.com/citations?user=H-rHaDoAAAAJ&hl=en&oi=ao" target="_blank"><i class="ai ai-google-scholar" style="font-size: 2em;"></i></a></li>
+					<li><a href="https://twitter.com/nasseralbunian" target="_blank"><i class="icon-twitter2" style="font-size: 2em;"></i></a></li>
+					<li><a href="https://sa.linkedin.com/in/nasser-albunian-6a09474a" target="_blank"><i class="icon-linkedin2" style="font-size: 2em;"></i></a></li>
+				</ul>
 				<p><small>&copy; <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
 Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | This template is made by <a href="https://colorlib.com" target="_blank">Colorlib</a>
 <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. --> </span> </small></p>
-				<ul>
-					<li><a href="#"><i class="icon-facebook2"></i></a></li>
-					<li><a href="#"><i class="icon-twitter2"></i></a></li>
-					<li><a href="#"><i class="icon-instagram"></i></a></li>
-					<li><a href="#"><i class="icon-linkedin2"></i></a></li>
-				</ul>
 			</div>
 
 		</aside>
@@ -100,7 +102,11 @@ Copyright &copy;<script>document.write(new Date().getFullYear());</script> All r
 									<div class="about-desc">
 										<span class="heading-meta">About</span>
 										<h2 class="colorlib-heading">Who Am I?</h2>
-										<p><strong>I am currently a PhD student in the <a href="https://www.sheffield.ac.uk/dcs" target="_blank">Department of Computer Science</a> at the <a href="https://www.sheffield.ac.uk/" target="_blank">University of Sheffield</a>. My PhD research mainly focuses on studying search behavior in Search-Based Software Testing (SBST) under the supervision of <a href="https://www.fim.uni-passau.de/en/chair-for-software-engineering-ii/" target="_blank">Gordon Fraser</a> and <a href="https://staffwww.dcs.shef.ac.uk/people/D.Sudholt/" target="_blank">Dirk Sudholt</a>. </p>
+										<p><strong>I am currently a PhD student in the <a href="https://www.sheffield.ac.uk/dcs" target="_blank">Department of Computer Science</a> at the <a href="https://www.sheffield.ac.uk/" target="_blank">University of Sheffield</a>. My PhD research mainly focuses on studying search behavior in Search-Based Software Testing (SBST) under the supervision of <a href="https://www.fim.uni-passau.de/en/chair-for-software-engineering-ii/" target="_blank">Gordon Fraser</a> and <a href="https://staffwww.dcs.shef.ac.uk/people/D.Sudholt/" target="_blank">Dirk Sudholt</a>. 
+										I hold a BSc in Computer Science from <a href="https://www.qu.edu.sa/"> Qassim University </a> and MSc in Computer Science from the <a href="https://www.unb.ca/" target="_blank"> University of New Brunswick </a>. 
+										<br><br>
+										My research interests lie primarily in the area of Software Engineering, in particular software quality, search-based software engineering, empirical software engineering, and evolutionary testing.
+										</p>
 									</div>
 								</div>
 							</div>
@@ -108,9 +114,6 @@ Copyright &copy;<script>document.write(new Date().getFullYear());</script> All r
 					</div>
 				</div>
 			</section>
-
-
-
 
 
 		<!--	<section class="colorlib-skills" data-section="skills">
@@ -210,14 +213,30 @@ Copyright &copy;<script>document.write(new Date().getFullYear());</script> All r
 									<div class="panel panel-default">
 									    <div class="panel-heading" role="tab" id="headingOne">
 									        <h4 class="panel-title">
-									            <a data-toggle="collapse" data-parent="#accordion" href="#collapseOne" aria-expanded="true" aria-controls="collapseOne">Causes and Effects of Fitness Landscapes in Unit Test Generation
+									            <a data-toggle="collapse" data-parent="#accordion" href="#collapseOne" aria-expanded="true" aria-controls="collapseOne">Measuring and Maintaining Population Diversity in Search-based Unit Test Generation
 									            </a>
 									        </h4>
 									    </div>
 									    <div id="collapseOne" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="headingOne">
 									         <div class="panel-body">
 														 <p>by N. Albunian, G. Fraser, D. Sudholt<br />
-														 <i>Genetic and Evolutionary Computation Conference (GECCO), 2020</i></p>
+														 <i>Symposium on Search-Based Software Engineering (SSBSE), 2020</i><br />
+														 [<a href="./papers/SSBSE20.pdf" target="blank">Paper</a>]</p>
+										      	</div>
+									    </div>
+									</div>
+									<div class="panel panel-default">
+									    <div class="panel-heading" role="tab" id="headingOne1">
+									        <h4 class="panel-title">
+									            <a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseOne1" aria-expanded="false" aria-controls="collapseOne1">Causes and Effects of Fitness Landscapes in Unit Test Generation
+									            </a>
+									        </h4>
+									    </div>
+									    <div id="collapseOne1" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingOne1">
+									         <div class="panel-body">
+														 <p>by N. Albunian, G. Fraser, D. Sudholt<br />
+														 <i>Genetic and Evolutionary Computation Conference (GECCO), 2020</i><br />
+														 [<a href="./papers/GECCO20.pdf" target="blank">Paper</a>]</p>
 										      	</div>
 									    </div>
 									</div>
@@ -231,7 +250,8 @@ Copyright &copy;<script>document.write(new Date().getFullYear());</script> All r
 									    <div id="collapseTwo" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingTwo">
 									        <div class="panel-body">
 														<p>by J. Campos, Y. Ge, N. Albunian, G. Fraser, M. Eler, A. Arcuri<br />
-														<i>Information and Software Technology (IST), 2018</i></p>
+														<i>Information and Software Technology (IST), 2018</i><br />
+														[<a href="./papers/IST18.pdf" target="blank">Paper</a>]</p>
 									        </div>
 									    </div>
 									</div>
@@ -245,7 +265,8 @@ Copyright &copy;<script>document.write(new Date().getFullYear());</script> All r
 									    <div id="collapseThree" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingThree">
 									        <div class="panel-body">
 									            <p>by Nasser M. Albunian<br />
-															<i>Symposium on Search-Based Software Engineering (SSBSE), 2017</i></p>
+															<i>Symposium on Search-Based Software Engineering (SSBSE), 2017</i><br />
+															[<a href="./papers/SSBSE17.pdf" target="blank">Paper</a>]</p>
 									        </div>
 									    </div>
 									</div>
@@ -256,7 +277,7 @@ Copyright &copy;<script>document.write(new Date().getFullYear());</script> All r
 				</div>
 			</section>
 
-			<!--<section class="colorlib-experience" data-section="experience">
+			<section class="colorlib-experience" data-section="experience">
 				<div class="colorlib-narrow-content">
 					<div class="row">
 						<div class="col-md-6 col-md-offset-3 col-md-pull-3 animate-box" data-animate-effect="fadeInLeft">
@@ -268,15 +289,16 @@ Copyright &copy;<script>document.write(new Date().getFullYear());</script> All r
 						<div class="col-md-12">
 				         <div class="timeline-centered">
 					         <article class="timeline-entry animate-box" data-animate-effect="fadeInLeft">
-					            <div class="t									imeline-entry-inner">
+					            <div class="timeline-entry-inner">
 
-					               <div class="timeline-icon color-1">
-					                  <i class="icon-pen2"></i>
+					               <div class="timeline-icon color-2">
+					                  
 					               </div>
 
 					               <div class="timeline-label">
-					                  <h2><a href="#">Full Stack Developer</a> <span>2017-2018</span></h2>
-					                  <p>Tolerably earnestly middleton extremely distrusts she boy now not. Add and offered prepare how cordial two promise. Greatly who affixed suppose but enquire compact prepare all put. Added forth chief trees but rooms think may.</p>
+					                  <h2><a href="#">Lecturer</a></h2>
+					                  <h2>Institute of Public Administration</h2>
+									  <span>Mar 2014 - Present</span>
 					               </div>
 					            </div>
 					         </article>
@@ -284,48 +306,39 @@ Copyright &copy;<script>document.write(new Date().getFullYear());</script> All r
 
 					         <article class="timeline-entry animate-box" data-animate-effect="fadeInRight">
 					            <div class="timeline-entry-inner">
-					               <div class="timeline-icon color-2">
-					                  <i class="icon-pen2"></i>
+					               <div class="timeline-icon color-none">
+					                  
 					               </div>
 					               <div class="timeline-label">
-					               	<h2><a href="#">Front End Developer at Google Company</a> <span>2017-2018</span></h2>
-					                  <p>Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic life One day however a small line of blind text by the name of Lorem Ipsum decided to leave for the far World of Grammar.</p>
+					               	<h2><a href="#">Head of IT Projects Unit</a></h2>
+					                  <h2>Institute of Public Administration</h2>
+									  <span>Sep 2014 - Sep 2015</span>
 					               </div>
 					            </div>
 					         </article>
 
 					         <article class="timeline-entry animate-box" data-animate-effect="fadeInLeft">
 					            <div class="timeline-entry-inner">
-					               <div class="timeline-icon color-3">
-					                  <i class="icon-pen2"></i>
+					               <div class="timeline-icon color-none">
+					                  
 					               </div>
 					               <div class="timeline-label">
-					               	<h2><a href="#">System Analyst</a> <span>2017-2018</span></h2>
-					                  <p>Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic life One day however a small line of blind text by the name of Lorem Ipsum decided to leave for the far World of Grammar.</p>
+					               	<h2><a href="#">Lecturer</a></h2>
+					                  <h2>Almaarefa College of Science and Technology</h2>
+									  <span>Sep 2013 - Mar 2014</span>
 					               </div>
 					            </div>
 					         </article>
 
 					         <article class="timeline-entry animate-box" data-animate-effect="fadeInTop">
 					            <div class="timeline-entry-inner">
-					               <div class="timeline-icon color-4">
-					                  <i class="icon-pen2"></i>
+					               <div class="timeline-icon color-none">
+					                  
 					               </div>
 					               <div class="timeline-label">
-					               	<h2><a href="#">Creative Designer</a> <span>2017-2018</span></h2>
-					                  <p>Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic life One day however a small line of blind text by the name of Lorem Ipsum decided to leave for the far World of Grammar.</p>
-					               </div>
-					            </div>
-					         </article>
-
-					         <article class="timeline-entry animate-box" data-animate-effect="fadeInLeft">
-					            <div class="timeline-entry-inner">
-					               <div class="timeline-icon color-5">
-					                  <i class="icon-pen2"></i>
-					               </div>
-					               <div class="timeline-label">
-					               	<h2><a href="#">UI/UX Designer at Envato</a> <span>2017-2018</span></h2>
-					                  <p>Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic life One day however a small line of blind text by the name of Lorem Ipsum decided to leave for the far World of Grammar.</p>
+					               	<h2><a href="#">IT Director</a></h2>
+					                  <h2>RAE Company for Consultancy and Environmental Services</h2>
+									  <span>May 2013 - Sep 2013</span>
 					               </div>
 					            </div>
 					         </article>
@@ -340,8 +353,26 @@ Copyright &copy;<script>document.write(new Date().getFullYear());</script> All r
 					   </div>
 				   </div>
 				</div>
-			</section>-->
+			</section>
 
+
+			<section class="colorlib-skills" data-section="skills">
+				<div class="colorlib-narrow-content">
+					<div class="row">
+						<div class="col-md-6 col-md-offset-3 col-md-pull-3 animate-box" data-animate-effect="fadeInLeft">
+							<span class="heading-meta">Recent Activities</span>
+							<h2 class="colorlib-heading animate-box">Activities</h2>
+						</div>
+					</div>
+					<ul>
+						<li>Presented my paper "<i>Measuring and Maintaining Population Diversity in Search-based Unit Test Generation</i>" at SSBSE 2020.</li>
+						<li>Presented my paper "<i>Causes and Effects of Fitness Landscapes in Unit Test Generation</i>" at GECCO 2020.</li>
+						<li>Participated as a Teaching Assistant in the Introduction to Algorithms and Data Structures module Spring term of 2018 and 2019.</li>
+						<li>Presented my paper "<i>Diversity in Search-Based Unit Test Suite Generation</i>" at SSBSE 2017.</li>
+						<li>Received the PRINCE2® Foundation Certificate in Project Management in 2015.</li>
+					</ul>
+				</div>
+			</section>
 
 
 			<!--<section class="colorlib-blog" data-section="blog">
